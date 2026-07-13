@@ -18,9 +18,9 @@ export const siteConfig = {
   instagram: "https://www.instagram.com/kiippelotas/",
   address: "Rua Caetano Gotuzzo, 160 - Fragata - Pelotas/RS - CEP 96045-470",
   mapsUrl:
-    "https://www.google.com/maps/search/?api=1&query=Rua%20Caetano%20Gotuzzo%20160%20Fragata%20Pelotas%20RS%2096045-470",
+    "https://www.google.com/maps/dir/?api=1&destination=Rua%20Caetano%20Gotuzzo%2C%20160%2C%20Fragata%2C%20Pelotas%20-%20RS%2C%2096045-470",
   mapsEmbedUrl:
-    "https://www.google.com/maps?q=Rua%20Caetano%20Gotuzzo%2C%20160%20-%20Fragata%2C%20Pelotas%20-%20RS%2C%2096045-470&output=embed",
+    "https://www.google.com/maps?q=Rua%20Caetano%20Gotuzzo%2C%20160%2C%20Fragata%2C%20Pelotas%20-%20RS%2C%2096045-470&z=16&output=embed",
   baseUrl: "https://www.kiippelotas.com.br",
   developerUrl: "https://www.oleonardomachado.com.br/",
   hours: "Segunda a sexta, das 8h às 18h. Sábados mediante agendamento.",

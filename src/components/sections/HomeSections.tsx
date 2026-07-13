@@ -654,7 +654,7 @@ function Location() {
               rel="noopener noreferrer"
               className="inline-flex min-h-14 items-center justify-center gap-2 rounded-full bg-kiip-yellow px-6 py-4 text-sm font-black uppercase tracking-[0.12em] text-black transition hover:-translate-y-0.5 hover:bg-yellow-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
             >
-              Como chegar
+              Abrir no Google Maps
               <ArrowRight size={18} aria-hidden="true" />
             </a>
             <a
@@ -669,13 +669,16 @@ function Location() {
           </div>
         </Reveal>
         <Reveal delay={0.08}>
-          <div className="overflow-hidden rounded-lg border border-white/10 bg-zinc-950 p-2 shadow-2xl shadow-black/40">
+          <div className="overflow-hidden rounded-lg border border-white/10 p-2 shadow-2xl shadow-black/40">
             <iframe
-              title="Mapa da KIIP Assessoria e Soluções Automotivas em Pelotas"
+              title="Localização da KIIP Soluções Automotivas em Pelotas"
               src={siteConfig.mapsEmbedUrl}
+              width="100%"
+              height="560"
+              style={{ border: 0 }}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              className="h-[420px] w-full rounded-md border-0 grayscale invert-[0.9] md:h-[560px]"
+              className="h-[420px] w-full rounded-md md:h-[560px]"
               allowFullScreen
             />
           </div>
